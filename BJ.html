@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blackjack</h1>
+        <h2>カードの合計が21を超えたら負け</h2>
+        <div class="game-area">
+            <div class="dealer">
+                <h2>ディーラーの手札　</h2>
+                <div id="dealer-cards" class="cards"></div>
+                <p id="dealer-score">合計値: 0</p>
+            </div>
+        
+            <div class="player">
+                <h2>　プレイヤーの手札</h2>
+                <div id="player-cards" class="cards"></div>
+                <p id="player-score">合計値: 0</p>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="deal-button">ディール</button>
+            <button id="hit-button" disabled>ヒット</button>
+            <button id="stand-button" disabled>スタンド</button>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="script4.js"></script>
+</body>
+</html>

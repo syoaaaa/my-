@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #2e8b57;
+    color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.game-area {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.cards div {
+    width: 50px;
+    height: 75px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    color: #000;
+    font-size: 18px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#deal-button {
+    background-color: #008CBA;
+    color: rgb(255, 255, 255);
+}
+
+#hit-button, #stand-button {
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 10px;
+}
